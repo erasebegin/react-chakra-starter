@@ -4,8 +4,15 @@ import image1 from './assets/Desk Mac Mockup 1desktop.png';
 function App() {
   return (
     <>
-      <Flex p={10} w="full" minH="100vh" justify="center" align="center">
-        <Stack align="center" gap={5}>
+      <Flex w="full" minH="100vh" justify="center" align="center">
+        <Stack
+          align="center"
+          gap={5}
+          bg="gray.50"
+          p={10}
+          borderRadius="md"
+          shadow="md"
+        >
           <Image
             src={image1}
             alt="computer with FRIVLE logo on screen"
